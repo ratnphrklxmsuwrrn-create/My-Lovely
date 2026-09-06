@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>สินค้าทั้งหมด — My Lovely</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สินค้าทั้งหมด | My Lovely</title>
+  <meta name="description" content="ตุ๊กตาสัตว์ 12 นักษัตร My Lovely เลือกกอดตัวที่ใช่ กรองตามนักษัตรที่คุณชอบได้เลย">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Noto+Sans+Thai:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <a href="index.html" class="site-nav__logo">My Lovely</a>
-  <a href="index.html" class="site-nav__link">กลับหน้าแรก</a>
-</nav>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">My Lovely</a>
+      <nav class="nav-links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="product-header">
-  <h1 class="product-header__title">ตุ๊กตา 12 นักษัตร</h1>
-  <p class="product-header__sub">ขนาด 40 ซม. ราคาตัวละ 189 บาท เท่ากันทุกตัว เลือกกรองตามอารมณ์ที่อยากได้ หรือดูทั้งหมด</p>
-</section>
+  <section class="page-heading">
+    <div class="container">
+      <h1>ตุ๊กตา 12 นักษัตรทั้งหมด</h1>
+      <p class="section-subtitle">เลือกตัวที่ใช่ กอดแล้วใจฟูทุกวัน หรือกรองตามนักษัตรที่คุณชอบได้เลย</p>
+    </div>
+  </section>
 
-<div id="filter-bar"></div>
+  <section>
+    <div class="container">
+      <div id="filter-bar"></div>
+      <div id="product-list"></div>
+    </div>
+  </section>
 
-<div id="product-list"></div>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 My Lovely — ตุ๊กตาตัวน้อยที่กอดแล้วใจฟู</p>
+    </div>
+  </footer>
 
-<footer class="site-footer">
-  My Lovely — ตุ๊กตาสัตว์ 12 นักษัตร ขนาด 40 ซม.
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>รายการคำสั่งซื้อ — My Lovely</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายการสั่งซื้อ (แอดมิน) | My Lovely</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Noto+Sans+Thai:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="site-nav">
-  <a href="index.html" class="site-nav__logo">My Lovely</a>
-  <a href="product.html" class="site-nav__link">ดูสินค้าทั้งหมด</a>
-</nav>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">My Lovely</a>
+      <nav class="nav-links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="admin-section">
-  <h1 class="admin-section__title">รายการคำสั่งซื้อ</h1>
-  <p class="admin-section__sub">คำสั่งซื้อทั้งหมดที่ลูกค้าส่งเข้ามาจากหน้าแจ้งสั่งซื้อ</p>
+  <section class="page-heading">
+    <div class="container">
+      <h1>รายการสั่งซื้อทั้งหมด</h1>
+      <p class="section-subtitle">รายการล่าสุดจะแสดงอยู่บนสุด ข้อมูลดึงมาจากชีตคำสั่งซื้อโดยอัตโนมัติ</p>
+    </div>
+  </section>
 
-  <div class="admin-table-wrap">
-    <table id="ordersTable">
-      <thead>
-        <tr>
-          <th>วันเวลา</th>
-          <th>ชื่อลูกค้า</th>
-          <th>เบอร์โทร/Line</th>
-          <th>รายการสินค้า</th>
-          <th>จำนวนเงินรวม</th>
-          <th>หมายเหตุ</th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
-  </div>
-</section>
+  <section>
+    <div class="container">
+      <div class="admin-table-wrap">
+        <table id="ordersTable">
+          <thead>
+            <tr>
+              <th>วันเวลา</th>
+              <th>ชื่อลูกค้า</th>
+              <th>เบอร์โทร/Line</th>
+              <th>รายการสินค้า</th>
+              <th>จำนวนเงินรวม</th>
+              <th>หมายเหตุ</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 
-<footer class="site-footer">
-  My Lovely — ตุ๊กตาสัตว์ 12 นักษัตร ขนาด 40 ซม.
-</footer>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 My Lovely — ตุ๊กตาตัวน้อยที่กอดแล้วใจฟู</p>
+    </div>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
