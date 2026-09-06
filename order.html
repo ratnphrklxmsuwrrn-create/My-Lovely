@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>สั่งซื้อ — My Lovely</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="site-nav__logo">My Lovely</a>
+  <a href="product.html" class="site-nav__link">ดูสินค้าทั้งหมด</a>
+</nav>
+
+<section class="order-section">
+  <h1 class="order-section__title">แจ้งสั่งซื้อ</h1>
+  <p class="order-section__sub">กรอกข้อมูลให้ครบ ทีมงานจะติดต่อกลับเพื่อยืนยันและนัดจัดส่งค่ะ</p>
+
+  <form id="orderForm" class="order-form">
+    <div class="field">
+      <label for="customerName">ชื่อลูกค้า</label>
+      <input type="text" id="customerName" name="customerName" placeholder="เช่น คุณใบตอง" required>
+    </div>
+
+    <div class="field">
+      <label for="contact">เบอร์โทร / Line</label>
+      <input type="text" id="contact" name="contact" placeholder="เช่น 08x-xxx-xxxx หรือ Line ID" required>
+    </div>
+
+    <div class="field">
+      <label for="items">รายการสินค้า</label>
+      <textarea id="items" name="items" placeholder="เช่น หนู x1, มังกร x2" required></textarea>
+    </div>
+
+    <div class="field">
+      <label for="total">จำนวนเงินรวม (บาท)</label>
+      <input type="number" id="total" name="total" min="0" step="1" placeholder="เช่น 378" required>
+    </div>
+
+    <div class="field">
+      <label for="note">หมายเหตุ</label>
+      <textarea id="note" name="note" placeholder="เช่น ที่อยู่จัดส่ง หรือข้อความเพิ่มเติม (ถ้ามี)"></textarea>
+    </div>
+
+    <button type="submit" class="order-submit">ยืนยันสั่งซื้อ</button>
+  </form>
+</section>
+
+<footer class="site-footer">
+  My Lovely — ตุ๊กตาสัตว์ 12 นักษัตร ขนาด 40 ซม.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

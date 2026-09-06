@@ -1,0 +1,110 @@
+[
+  {
+    "id": "mouse",
+    "name": "หนู",
+    "ชนิดสัตว์": "Mouse",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Mouse.jpg",
+    "description": "ตุ๊กตาหนูน้อยนุ่มฟูสุดคิ้วท์ กอดแล้วใจละลาย"
+  },
+  {
+    "id": "cow",
+    "name": "วัว",
+    "ชนิดสัตว์": "Cow",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Cow.jpg",
+    "description": "ตุ๊กตาวัวอ้วนกลม อบอุ่นทุกการกอด ราคาเบาๆ"
+  },
+  {
+    "id": "tiger",
+    "name": "เสือ",
+    "ชนิดสัตว์": "Tiger",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Tiger.jpg",
+    "description": "ตุ๊กตาเสือน้อยขนนุ่ม ความน่ารักที่ซ่อนพลังไว้ข้างใน"
+  },
+  {
+    "id": "rabbit",
+    "name": "กระต่าย",
+    "ชนิดสัตว์": "Rabbit",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Rabbit.jpg",
+    "description": "ตุ๊กตากระต่ายหูยาว นุ่มละมุนดั่งก้อนเมฆ"
+  },
+  {
+    "id": "dragon",
+    "name": "มังกร",
+    "ชนิดสัตว์": "Dragon",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Dragon.jpg",
+    "description": "ตุ๊กตามังกรมหัศจรรย์ พาความฝันโบยบิน"
+  },
+  {
+    "id": "snake",
+    "name": "งู",
+    "ชนิดสัตว์": "Snake",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Snake.jpg",
+    "description": "ตุ๊กตางูลื่นไหลมีเสน่ห์ น่ารักแบบมีเอกลักษณ์"
+  },
+  {
+    "id": "sheep",
+    "name": "แกะ",
+    "ชนิดสัตว์": "Sheep",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Sheep.jpg",
+    "description": "ตุ๊กตาแกะขนฟู นุ่มเหมือนหมอนใบโปรด"
+  },
+  {
+    "id": "monkey",
+    "name": "ลิง",
+    "ชนิดสัตว์": "Monkey",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Monkey.jpg",
+    "description": "ตุ๊กตาลิงจอมซน เติมความสดใสให้ทุกวัน"
+  },
+  {
+    "id": "chicken",
+    "name": "ไก่",
+    "ชนิดสัตว์": "Chicken",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Chicken.jpg",
+    "description": "ตุ๊กตาไก่แสนสดใส พลังบวกเต็มตัว"
+  },
+  {
+    "id": "dog",
+    "name": "สุนัข",
+    "ชนิดสัตว์": "Dog",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Dog.jpg",
+    "description": "ตุ๊กตาสุนัขแสนซื่อ เพื่อนแท้ตัวนุ่มฟู"
+  },
+  {
+    "id": "pig",
+    "name": "หมู",
+    "ชนิดสัตว์": "Pig",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Pig.jpg",
+    "description": "ตุ๊กตาหมูอวบอิ่ม กอดแล้วฟินทุกครั้ง"
+  },
+  {
+    "id": "horse",
+    "name": "ม้า",
+    "ชนิดสัตว์": "Horse",
+    "size": "40 ซม.",
+    "price": 189,
+    "image": "images/Horse.jpg",
+    "description": "ตุ๊กตาม้าสง่างาม พาใจให้เป็นอิสระ"
+  }
+]
